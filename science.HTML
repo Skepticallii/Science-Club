@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Club</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Science Club</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Welcome to the Science Club! Our mission is to explore, experiment, and inspire a love for science in everyone.</p>
+    </section>
+
+    <section id="events" class="section">
+        <h2>Upcoming Events</h2>
+        <div class="event-list">
+            <p><strong>January 15:</strong> Robotics Workshop</p>
+            <p><strong>February 20:</strong> Science Fair</p>
+            <p><strong>March 10:</strong> Astronomy Night</p>
+        </div>
+    </section>
+
+    <section id="members" class="section">
+        <h2>Members</h2>
+        <ul id="member-list">
+            <li>Jane Doe</li>
+            <li>John Smith</li>
+            <li>Alex Johnson</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Science Club. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
